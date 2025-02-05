@@ -106,8 +106,10 @@ class EmployeeDetailsDialog(ThemedDialog):
         self.timestamps_table.insertRow(row)
         self.timestamps_table.setItem(row, 0, QTableWidgetItem(join_date))
 
+"""TODO: implement these classes so we stop getting errors.
 class AddEmployeeDialog(ThemedDialog):
     def __init__(self, db_manager, dark_mode: bool, parent=None):
+        super.__init__
         # ... (same as before)
 
 class EditEmployeeDialog(ThemedDialog):
@@ -137,7 +139,7 @@ class LoginDialog(ThemedDialog):
 class SettingsDialog(ThemedDialog):
     def __init__(self, settings, parent=None):
         # ... (same as before)
-
+"""
 class Notification(ThemedDialog):
     def __init__(self, message, dark_mode, parent=None):
         super().__init__(dark_mode, parent)
