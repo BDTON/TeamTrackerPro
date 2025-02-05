@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import (
     QComboBox, QToolBar, QAction, QMessageBox, QWidget, QTabWidget,
     QApplication, QStyleFactory, QSizePolicy
 )
-from PyQt5.QtCore import Qt, QSize, QSettings
+from PyQt5.QtCore import Qt, QSize, QSettings, QTimer
 from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 import markdown
